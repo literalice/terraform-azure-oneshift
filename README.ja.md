@@ -165,6 +165,8 @@ ansible-playbook -i inventory.yml /usr/share/ansible/openshift-ansible/playbooks
 
 インストールが終了したら、 https://master.ocp.example.com:8443 にアクセスしてWebコンソールが表示されることを確認してください。
 
+`Timeout (12s) waiting for privilege escalation prompt: ` で止まる場合は、何度か deploy_cluster.yml を再実行してください。
+
 ### StorageClassの作成
 
 VM上で以下ファイルを作成し、OpenShiftが標準で使用するStorageClassを作成します。
