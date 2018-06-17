@@ -25,7 +25,7 @@ OpenShiftがストレージをAzureのManaged Diskから払い出せるよう、
    ```
 2. 出力されるJSONを控える
   以下のようなJSONが出力されるので、後のステップのために控えておきます。
-
+  
   ```json
   {
   "appId": "xxx-xxx-xxx-xxx",
@@ -33,8 +33,8 @@ OpenShiftがストレージをAzureのManaged Diskから払い出せるよう、
   "name": "http://openshiftcloudprovider",
   "password": "<任意のパスワード>",
   "tenant": "xxx-xxx-xxx-xxx-xxxxxxxxx"
-}
-```
+  }
+  ```
 
 ## Azureで設定ファイルを作成する
 
